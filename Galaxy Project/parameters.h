@@ -71,7 +71,5 @@ You are the Astral Pathfinder."
 #define MAX_NUM_SCORES 10
 #define MAX_NAME_LENGTH 20
 #define MAX_NAME_LENGTH_STR "20"        //should contain MAX_NAME_LENGTH in string form
-
-#define HIGHSCORE_FILENAME "highscores.txt"
  
 #endif /* parameters_h */
