@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02D82C981BFBB05500836C3C /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 02D82C971BFBB05500836C3C /* main.c */; };
+		02D82CA01BFBB0A100836C3C /* galaxy.c in Sources */ = {isa = PBXBuildFile; fileRef = 02D82C9E1BFBB0A100836C3C /* galaxy.c */; };
+		02D82CA31BFBB8D200836C3C /* menu.c in Sources */ = {isa = PBXBuildFile; fileRef = 02D82CA11BFBB8D200836C3C /* menu.c */; };
+		02D82CA61BFBB8E100836C3C /* gameplay.c in Sources */ = {isa = PBXBuildFile; fileRef = 02D82CA41BFBB8E100836C3C /* gameplay.c */; };
+		02D82CA91BFF835600836C3C /* general.c in Sources */ = {isa = PBXBuildFile; fileRef = 02D82CA71BFF835600836C3C /* general.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		02D82C921BFBB05500836C3C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		02D82C941BFBB05500836C3C /* Galaxy Project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Galaxy Project"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02D82C971BFBB05500836C3C /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		02D82C9E1BFBB0A100836C3C /* galaxy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = galaxy.c; sourceTree = "<group>"; };
+		02D82C9F1BFBB0A100836C3C /* galaxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = galaxy.h; sourceTree = "<group>"; };
+		02D82CA11BFBB8D200836C3C /* menu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = menu.c; sourceTree = "<group>"; };
+		02D82CA21BFBB8D200836C3C /* menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = menu.h; sourceTree = "<group>"; };
+		02D82CA41BFBB8E100836C3C /* gameplay.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gameplay.c; sourceTree = "<group>"; };
+		02D82CA51BFBB8E100836C3C /* gameplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gameplay.h; sourceTree = "<group>"; };
+		02D82CA71BFF835600836C3C /* general.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = general.c; sourceTree = "<group>"; };
+		02D82CA81BFF835600836C3C /* general.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = general.h; sourceTree = "<group>"; };
+		02D82CAA1C027BEC00836C3C /* highscores.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = highscores.txt; sourceTree = "<group>"; };
+		02D82CBE1C02B96A00836C3C /* parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parameters.h; sourceTree = "<group>"; tabWidth = 4; usesTabs = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02D82C911BFBB05500836C3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02D82C8B1BFBB05500836C3C = {
+			isa = PBXGroup;
+			children = (
+				02D82C961BFBB05500836C3C /* Galaxy Project */,
+				02D82C951BFBB05500836C3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02D82C951BFBB05500836C3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02D82C941BFBB05500836C3C /* Galaxy Project */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02D82C961BFBB05500836C3C /* Galaxy Project */ = {
+			isa = PBXGroup;
+			children = (
+				02D82CBE1C02B96A00836C3C /* parameters.h */,
+				02D82C971BFBB05500836C3C /* main.c */,
+				02D82C9F1BFBB0A100836C3C /* galaxy.h */,
+				02D82C9E1BFBB0A100836C3C /* galaxy.c */,
+				02D82CA21BFBB8D200836C3C /* menu.h */,
+				02D82CA11BFBB8D200836C3C /* menu.c */,
+				02D82CA51BFBB8E100836C3C /* gameplay.h */,
+				02D82CA41BFBB8E100836C3C /* gameplay.c */,
+				02D82CA81BFF835600836C3C /* general.h */,
+				02D82CA71BFF835600836C3C /* general.c */,
+				02D82CAA1C027BEC00836C3C /* highscores.txt */,
+			);
+			path = "Galaxy Project";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02D82C931BFBB05500836C3C /* Galaxy Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02D82C9B1BFBB05500836C3C /* Build configuration list for PBXNativeTarget "Galaxy Project" */;
+			buildPhases = (
+				02D82C901BFBB05500836C3C /* Sources */,
+				02D82C911BFBB05500836C3C /* Frameworks */,
+				02D82C921BFBB05500836C3C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Galaxy Project";
+			productName = "Galaxy Project";
+			productReference = 02D82C941BFBB05500836C3C /* Galaxy Project */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02D82C8C1BFBB05500836C3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Logan Harvell";
+				TargetAttributes = {
+					02D82C931BFBB05500836C3C = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 02D82C8F1BFBB05500836C3C /* Build configuration list for PBXProject "Galaxy Project" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 02D82C8B1BFBB05500836C3C;
+			productRefGroup = 02D82C951BFBB05500836C3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02D82C931BFBB05500836C3C /* Galaxy Project */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02D82C901BFBB05500836C3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02D82CA91BFF835600836C3C /* general.c in Sources */,
+				02D82C981BFBB05500836C3C /* main.c in Sources */,
+				02D82CA01BFBB0A100836C3C /* galaxy.c in Sources */,
+				02D82CA31BFBB8D200836C3C /* menu.c in Sources */,
+				02D82CA61BFBB8E100836C3C /* gameplay.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		02D82C991BFBB05500836C3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		02D82C9A1BFBB05500836C3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		02D82C9C1BFBB05500836C3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-lncurses";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		02D82C9D1BFBB05500836C3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-lncurses";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02D82C8F1BFBB05500836C3C /* Build configuration list for PBXProject "Galaxy Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02D82C991BFBB05500836C3C /* Debug */,
+				02D82C9A1BFBB05500836C3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02D82C9B1BFBB05500836C3C /* Build configuration list for PBXNativeTarget "Galaxy Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02D82C9C1BFBB05500836C3C /* Debug */,
+				02D82C9D1BFBB05500836C3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02D82C8C1BFBB05500836C3C /* Project object */;
+}
